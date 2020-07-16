@@ -104,5 +104,121 @@ console.log(name);// global declaration for var
 </html>
 
 
+Day 2
+Assi1
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        
+        <title>input from user</title>
+    </head>
+    <body>
+        <h1>
+            enter your name
+        </h1>
+        
+        <script>
+            var myInput = prompt("Please enter your name");
+
+            console.log(myInput);
+            console.log("Log in successfully");
+        </script>
+    </body>
+</html>
+  
+
+
+Assi2
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        
+        <title>Array and String </title>
+    </head>
+    <body>
+        <h1>
+            Array and String remaining 
+        </h1>
+        <script> 
+        var animal=[" lion", "tiger ","fox"];
+          console.log(animal);
+         animal.push("horse");
+         console.log(animal);
+         console.log(animal-1);
+         console.log(animal[0]);
+         console.log(animal[1]);
+         console.log(animal[2]);
+         console.log(animal.length);  
+            
+      var fruits;
+fruits = ["Banana", "Orange", "Apple", "Mango"];
+            
+    console.log(fruits);
+    console.log(fruits.length);
+
+var Arr=[];
+  Arr[0]=" kumar";
+  Arr[1]= 24;
+  Arr[2]="tamil nadu";
+   console.log(Arr);
+  
+   </script>
+         <h1>
+            String remaining 
+        </h1>
+   <script>
+       var text= " welcome to 'the' my program language";
+       console.log(text);
+       console.log(text.length);
+       console.log(text.slice(9,18));
+       console.log(text.substring(9,18));
+       
+        console.log(text.substr(9));
+       console.log(text.replace("to","do"));
+       var text1 = "Hello World!";   
+        
+       console.log(text1.toUpperCase());
+       console.log(text1.toLowerCase());
+       console.log(text1.split(""));
+       console.log(text1.charAt(6));
+       console.log(text1.charCodeAt(8));
+   </script>
+        
+    </body>
+</html>
+ Ass3 
+
+
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        
+        <title> if else problem </title>
+    </head>
+    <body>
+        
+        <h1>
+            
+        </h1>
+        <script> 
+            var age = prompt( "enter your age" );
+            if(age>21)
+{
+   var drink =alert(" can drink ");
+   
+}
+else 
+ var drink1 = alert(" can't drink ");
+            
+        </script>
+    </body>
+</html>
+
 
 Letupgrgae 
