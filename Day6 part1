@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+        <title> Day 6</title>
+    </head>
+    <body>
+        <h1> List of Animals
+        </h1>
+        
+      <ul id="list">    </ul>
+        
+        
+    <script>
+        
+       let Animals=[ "lion", " tiger"," zebra"," monkey"];
+         console.log(Animals)
+        
+        
+       const lis = document.querySelector('#list')
+        console.log(list);
+        
+        
+        Animals.forEach(Animal=>{ 
+ 
+ lis.innerHTML += `<li>${Animal}</li>`;
+})
+        
+
+
+  function changeColor() {
+    setTimeout(function loop() {
+      document.Color = Animal.shift();
+      if (Animal.length) {
+        setTimeout(loop, 5000);
+      }
+    }, 5000);
+  }
+
+
+
+ setInterval(changeColor(), 20000); 
+
+
+  function change() {
+    setTimeout(function loop() {
+      document.bgColor = Animal.shift();
+      if (Animal.length) {
+        setTimeout(loop, 5000);
+      }
+    }, 5000);
+  }
+
+
+
+ setInterval(change(), 20000); 
+
+
+        
+    </script>
+        
+        
+        
+   
+    </body>
+</html>
