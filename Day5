@@ -1,0 +1,156 @@
+ Ass1
+<!DOCTYPE html>
+
+<html>
+    <head>
+        
+        <title> Day 5 - </title>
+    </head>
+    <body>
+        <h1>
+             Day 5/ Assignment 1
+        </h1>
+        
+        
+    <script> 
+        
+        let userValue = prompt(" enter the number of array element")
+        let input  = [];
+        
+let size = userValue;
+
+for(var i=0; i<size; i++) {
+	
+	
+	input[i] = prompt('Enter Element ' + (i+1));
+}
+
+
+console.log(input);
+
+let oddArray = input.filter( number=> number%2===1);
+
+
+console.log(oddArray);
+
+let square =oddArray.forEach((el)=>{ 
+console.log(el**3);
+});
+
+
+
+ 
+
+
+        
+        
+    </script>
+    </body>
+</html> 
+
+
+
+
+ Assignment 2
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        
+        <title> day5</title>
+    </head>
+    <body>
+        <h1>
+             class problem 
+        </h1>
+        
+        <script> 
+          class Persons { 
+constructor(name, age,email) { 
+
+this.name = name; 
+this.age = age; 
+this.email = email; 
+}
+
+login() { 
+console.log(`${this.name} has logged in`); 
+return this; 
+} 
+
+logout() {
+console.log(`${this.name} has logged out`); 
+return this;
+}
+}
+
+
+class Moderator extends Persons { 
+
+constructor(name,age,email) { 
+
+super(name,age,email);
+ this.addCoins=0;
+
+  this.removeCoins;
+
+}
+
+addCoins(Persons) {
+ this.Coins++; 
+console.log(`${this.name} has ${this.Coins} coins`); 
+return this;
+}
+
+removeCoins(Persons) {
+this.coins--;
+console.log(`${this.name} has ${this.Coins} coins` );
+return this;
+
+}
+}
+
+class Admin extends Moderator{ 
+addCourse(Persons,course)
+{
+ user.courses.push(course);
+ console.log(Persons);
+}
+
+deleteUser(Persons){ Persons = person.filter(p =>{
+ return p.course != Persons.course;
+ }) }
+
+}
+
+
+ 
+let person1 = new Persons("murali",25,"m@mail.com");
+ let person2 = new Persons(" Vijay ",34," v@gmail.com ");
+
+let mode = new Moderator("abdul",29,"a@gmail.com");
+person1.login();
+
+person1.logout();
+
+mode.login();
+person1.addCoins();
+
+
+let admin1= new Admin(" prakash", 45," a@mail.com");
+
+
+admin.logout();
+
+admin.addCourse(person1,"Java");
+admin.addCourse(person2," c");
+
+
+
+
+        </script> 
+    </body>
+</html>
+
+
