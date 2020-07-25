@@ -1,4 +1,4 @@
-Assignment 2
+77Assignment 2
 
 <html>
   
@@ -60,51 +60,25 @@ color:blue;
         <h4 id="time">  </h4>
         
         
-        <h1 id="attribute" class=" blue green"> I don't have a laptop or system . develop  the coding using android mobile and execute  tha android app. I will arrange athe lap before 27 July. any mistake have run tha mobile phone and get the correct answer.   
-        </h1>
-        
-        
-        
-        
-        <h2 >
+        <h1 id="attribute" class=" blue green"> I don't have a laptop or system . develop  the coding using android mobile and execute  tha android app. I will arrange athe lap before 27 July. any mistake have run tha mobile  <h2 >
              well to our page 
             
         </h2>
-        
-        
-        <h2 >
-             hiii 
-            
-        </h2>
-        
-        
-        
-    <script>
-        
-        
+     <h2 >
+        hiii </h2>
+ <script>
         var web= prompt(" enter your name", name);
           
-         var page= alert( web +" welcome my page");
-         
-         
-         
+         var page= alert( web +" welcome my page") 
           const timing = document.getElementById("time");
-         
-        
-        function clock() {
+  function clock() {
 
       let date = new Date();
 
       let time = date.toLocaleTimeString();
-      timing.innerText= time;
-
+      timing.innerText= time
 }
-
 setInterval(clock,1000)
-        
-        
-        
-        
         const att=document.getElementById("attribute");
         console.log(att.getAttribute("id"))
         
@@ -113,9 +87,6 @@ setInterval(clock,1000)
         att.classList.remove("blue");
         att.classList.toggle("blue");
         att.classList.toggle(" blue");
-        
-        
-        
         function change(){
     setTimeout(()=>{
 
