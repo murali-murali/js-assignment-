@@ -40,7 +40,7 @@
 
 
 
- setInterval(changeColor(), 20000); 
+ setInterval(changeColor(), 50000); 
 
 
   function change() {
@@ -54,7 +54,7 @@
 
 
 
- setInterval(change(), 20000); 
+ setInterval(change(), 50000); 
 
 
         
