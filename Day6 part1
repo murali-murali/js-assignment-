@@ -65,3 +65,141 @@
    
     </body>
 </html>
+Assignment 2
+
+<html>
+  
+  <head> 
+    
+    <title>Multiplication Table Generator</title> 
+    
+    <script language="javascript" type="text/javascript"> 
+      
+      function generateTable()
+      { 
+      var myVar = prompt("A number?", ""); 
+      var myString = ""; 
+      for (i=1; i<=10; i++)
+        
+        { 
+        myString += i+ " x " +myVar+ " = " +(i*myVar)+ "\n";
+        } 
+        alert(myString); 
+        } 
+      </script> 
+    </head> 
+    <body> 
+      
+      <a href="javascript:generateTable()">Create New Table</a> </body> 
+  
+</html> 
+
+
+
+
+ Assi3
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+        <title>Hello, World!</title>
+       <style>
+         .blue{
+color:blue;
+     
+}
+.green {
+ 
+ background-color: green;
+}
+
+           
+           
+       </style>
+    </head>
+    
+    
+ 
+    <body>
+        
+        <h4 id="time">  </h4>
+        
+        
+        <h1 id="attribute" class=" blue green"> I don't have a laptop or system . develop  the coding using android mobile and execute  tha android app. I will arrange athe lap before 27 July. any mistake have run tha mobile phone and get the correct answer.   
+        </h1>
+        
+        
+        
+        
+        <h2 >
+             well to our page 
+            
+        </h2>
+        
+        
+        <h2 >
+             hiii 
+            
+        </h2>
+        
+        
+        
+    <script>
+        
+        
+        var web= prompt(" enter your name", name);
+          
+         var page= alert( web +" welcome my page");
+         
+         
+         
+          const timing = document.getElementById("time");
+         
+        
+        function clock() {
+
+      let date = new Date();
+
+      let time = date.toLocaleTimeString();
+      timing.innerText= time;
+
+}
+
+setInterval(clock,1000)
+        
+        
+        
+        
+        const att=document.getElementById("attribute");
+        console.log(att.getAttribute("id"))
+        
+        att.classList.add(" blue");
+        att.classList.add(" green");
+        att.classList.remove("blue");
+        att.classList.toggle("blue");
+        att.classList.toggle(" blue");
+        
+        
+        
+        function change(){
+    setTimeout(()=>{
+
+   document.body.style.backroundColor='red';
+   
+},3000);
+
+}
+ change();
+
+
+        
+        
+    </script>
+     
+    </body> 
+</html>
+
+
+
