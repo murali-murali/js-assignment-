@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+    
+        <title> Day 4</title>
+    </head>
+    <body>
+        <h1>
+             Assignment 1
+        </h1>
+    <script>
+        var num;
+            for (num=1; num <= 100; num++)
+{ 
+if( num % 3 == 0 )
+{ 
+console.log("fizz");
+} 
+if( num % 5 == 0 )
+{ 
+console.log("buzz");
+} 
+if( ( num % 3==0 ) && ( num % 5 == 0 ) )
+{ 
+console.log("fizzbuzz");
+ } }
+           
+        </script>
+    </body>
+</html>
+
+
+
+assign2
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        
+        <title> Day 4</title>
+    </head>
+    <body>
+        <h1>
+            destructure the object, i don't have a laptop or system , i only used mobile. please run the Android application.
+        </h1>
+        
+        
+        <script> 
+            const student = {
+ name: "helsink",
+  age :24,
+projects: {
+diceGame: "two player dice game using java script "
+}
+
+}
+
+
+ const { name,age,projects:{diceGame}}= student;
+console.log(name)
+console.log(age)
+console.log(diceGame)
+console.log(name,age,diceGame)
+ 
+  
+        </script>
+    </body>
+</html>
+
+
+
+Ass3
+
